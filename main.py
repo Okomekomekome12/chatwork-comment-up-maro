@@ -2,7 +2,8 @@ import time
 import chatwork
 import threading as td
 
-time.sleep(60) # 初期化用
+print("初期化中")
+time.sleep(300) # 初期化用
 
 API_TOKEN = "4776bacb2f286251d40a56af3aaa9baa"
 first_room_id = 435850950
