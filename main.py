@@ -26,35 +26,35 @@ cw8 = chatwork.setup(eighth_room_id,API_TOKEN)
 def first_room():
     while True:
         cw1.messagesend("うおw")
-        time.sleep(2)
+        time.sleep(5)
 def second_room():
     while True:
         cw2.messagesend("うおw")
-        time.sleep(5)
+        time.sleep(5.2)
 def third_room():
     while True:
         cw3.messagesend("うおw")
-        time.sleep(5)
+        time.sleep(5.3)
 def forth_room():
     while True:
         cw4.messagesend("うおw")
-        time.sleep(5)
+        time.sleep(5.4)
 def fifth_room():
     while True:
         cw5.messagesend("うおw")
-        time.sleep(5)
+        time.sleep(5.5)
 def sixth_room():
     while True:
         cw6.messagesend("うおw")
-        time.sleep(5)
+        time.sleep(5.6)
 def seventh_room():
     while True:
         cw7.messagesend("うおw")
-        time.sleep(5)
+        time.sleep(5.7)
 def eighth_room():
     while True:
         cw8.messagesend("うおw")
-        time.sleep(5)
+        time.sleep(5.8)
 
 thread1 = td.Thread(target=first_room)
 thread2 = td.Thread(target=second_room)
