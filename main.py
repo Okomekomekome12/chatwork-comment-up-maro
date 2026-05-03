@@ -6,14 +6,14 @@ print("初期化中")
 time.sleep(300) # 初期化用
 
 API_TOKEN = "4776bacb2f286251d40a56af3aaa9baa"
-first_room_id = 435850950
-second_room_id = 435850954
-third_room_id = 435850957
-forth_room_id = 435850959
-fifth_room_id = 435850960
-sixth_room_id = 435850962
+first_room_id   = 435850950
+second_room_id  = 435850954
+third_room_id   = 435850957
+forth_room_id   = 435850959
+fifth_room_id   = 435850960
+sixth_room_id   = 435850962
 seventh_room_id = 435850968
-eighth_room_id = 435850968
+eighth_room_id  = 435850973
 
 cw1 = chatwork.setup(first_room_id,API_TOKEN)
 cw2 = chatwork.setup(second_room_id,API_TOKEN)
