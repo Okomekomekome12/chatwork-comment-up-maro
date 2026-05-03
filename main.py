@@ -30,31 +30,31 @@ def first_room():
 def second_room():
     while True:
         cw2.messagesend("うおw")
-        time.sleep(2)
+        time.sleep(5)
 def third_room():
     while True:
         cw3.messagesend("うおw")
-        time.sleep(2)
+        time.sleep(5)
 def forth_room():
     while True:
         cw4.messagesend("うおw")
-        time.sleep(2)
+        time.sleep(5)
 def fifth_room():
     while True:
         cw5.messagesend("うおw")
-        time.sleep(2)
+        time.sleep(5)
 def sixth_room():
     while True:
         cw6.messagesend("うおw")
-        time.sleep(2)
+        time.sleep(5)
 def seventh_room():
     while True:
         cw7.messagesend("うおw")
-        time.sleep(2)
+        time.sleep(5)
 def eighth_room():
     while True:
         cw8.messagesend("うおw")
-        time.sleep(2)
+        time.sleep(5)
 
 thread1 = td.Thread(target=first_room)
 thread2 = td.Thread(target=second_room)
